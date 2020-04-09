@@ -24,7 +24,7 @@ There are several individual microservices and infrastructure components that ma
 Prerequisites
 ================
 In order to deploy the CoolStore microservices application, you need an OpenShift environment with
-* RHEL and JBoss imagestreams installed (check _Troubleshooting_ section for details)
+* RHEL, JBoss and NodeJS version 8 imagestreams installed (check _Troubleshooting_ section for details)
 * Nexus Repository (or other maven repository managers) with [proxy repositories](https://books.sonatype.com/nexus-book/reference/confignx-sect-manage-repo.html) defined for [JBoss Enterprise Maven Repository](https://access.redhat.com/maven-repository)
 
 Deploy  MSA Application
