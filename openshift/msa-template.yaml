@@ -57,7 +57,7 @@ objects:
           value: ${BOWER_MIRROR}
         from:
           kind: ImageStreamTag
-          name: nodejs:4
+          name: nodejs:8
           namespace: ${IMAGE_STREAM_NAMESPACE}
       type: Source
     triggers:
@@ -1565,7 +1565,7 @@ parameters:
   displayName: Git source repository
   name: GIT_URI
   required: true
-  value: https://github.com/erkerc/msa-demo
+  value: https://github.com/KocSistem/openshift-microservice-demo/msa-demo
 - displayName: Git branch/tag reference
   name: GIT_REF
   required: true
