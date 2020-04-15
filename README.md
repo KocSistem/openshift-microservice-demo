@@ -34,6 +34,7 @@ Deploy the application using this template `openshift/msa-template.yaml`:
 oc login -u developer
 oc new-project msa-demo
 oc process -f openshift/msa-template.yaml | oc create -f -
+oc policy add-role-to-user view system:serviceaccount:msa-demo:default -n msa-demo
 ```
 
 When all pods are deployed, verify all services are functioning:
