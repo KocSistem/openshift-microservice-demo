@@ -1565,7 +1565,7 @@ parameters:
   displayName: Git source repository
   name: GIT_URI
   required: true
-  value: https://github.com/KocSistem/openshift-microservice-demo/msa-demo
+  value: https://github.com/KocSistem/openshift-microservice-demo
 - displayName: Git branch/tag reference
   name: GIT_REF
   required: true
