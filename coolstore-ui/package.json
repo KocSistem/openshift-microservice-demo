@@ -12,7 +12,7 @@
   "homepage": "https://developers.redhat.com",
   "dependencies": {
     "cors": "^2.8.3",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "keycloak-connect": "^8.0.1",
     "request": "^2.74.0"
   },
