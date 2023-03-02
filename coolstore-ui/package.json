@@ -13,7 +13,7 @@
   "dependencies": {
     "cors": "^2.8.3",
     "express": "^4.13.4",
-    "keycloak-connect": "^8.0.1",
+    "keycloak-connect": "^21.0.1",
     "request": "^2.74.0"
   },
   "devDependencies": {
